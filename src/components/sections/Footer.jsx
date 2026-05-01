@@ -38,7 +38,7 @@ export default function Footer() {
         </div>
         <div>
           <p className="eyebrow mb-3">now</p>
-          <p className="text-sm text-muted">Building Mental Baddie · Shipping side-projects · Reading more security papers.</p>
+          <p className="text-sm text-muted">Architecting cloud systems · Shipping side projects · Reading security papers.</p>
         </div>
       </div>
       <div className="border-t border-ink/10">

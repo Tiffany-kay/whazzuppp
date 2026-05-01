@@ -19,10 +19,13 @@ function AnimatedRoutes() {
   );
 }
 
+// Strip trailing slash so basename works in dev ("/") and prod ("/whazzuppp")
+const BASENAME = import.meta.env.BASE_URL.replace(/\/$/, "");
+
 export default function App() {
   return (
     <ThemeProvider>
-      <BrowserRouter>
+      <BrowserRouter basename={BASENAME}>
         <AnimatedRoutes />
         <Toaster
           position="bottom-right"

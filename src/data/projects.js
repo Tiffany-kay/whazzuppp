@@ -84,7 +84,7 @@ export const PROJECTS = [
     id: "mental-baddie",
     slug: "mental-baddie",
     name: "Mental Baddie",
-    year: "2025 → now",
+    year: "2025",
     role: "Co-Founder & Product Developer",
     summary:
       "AI-powered mental wellness chatbot for Gen Z across Africa. End-to-end encryption + product strategy.",
@@ -95,7 +95,7 @@ export const PROJECTS = [
     skillTags: ["ai", "security", "dev"],
     links: {},
     hue: "violet",
-    status: "in progress",
+    status: "archived",
     featured: true,
     hasArchitectureDiagram: false,
     pos: { x: 730, y: 480 },

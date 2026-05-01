@@ -1,6 +1,6 @@
 import { cn } from "@/lib/cn";
 
-export default function NowBadge({ className, label = "now", text = "Building Mental Baddie" }) {
+export default function NowBadge({ className, label = "now", text = "Architecting cloud systems" }) {
   return (
     <span
       className={cn(
