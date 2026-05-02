@@ -18,7 +18,8 @@ export const ABOUT = {
     linkedin: "https://www.linkedin.com/in/tiffany-gathoni-51358b352",
     hashnode: "https://tiff-explores.hashnode.dev",
     hashnodeProfile: "https://hashnode.com/@TiffExplores",
-    cv: "/files/tiffany-gathoni-cv.pdf",
+    // import.meta.env.BASE_URL is "/" in dev, "/whazzuppp/" on Pages.
+    cv: `${import.meta.env.BASE_URL}TIFFANY_GATHONI-CV.pdf`,
     calendly: "https://calendly.com/",
   },
   hashnodeUsername: "TiffExplores",
